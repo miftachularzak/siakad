@@ -1,0 +1,18 @@
+.nav-link:hover{
+    background-color: grey;
+}
+
+.card-body-icon{
+    position: absolute;
+    z-index: 0;
+    top: 25px;
+    right: 4px;
+    opacity: .4;
+    font-size: 90px;
+}
+
+@media(max-width:1171px){
+    .col-md-10 .row .card{
+        margin-top: 20px;
+    }
+}
